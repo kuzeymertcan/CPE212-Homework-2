@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Image, Image Map, and Color Example</title>
+  </head>
+  <body>
+    <h1>Displaying an Image</h1>
+    <img src="image1.png" width="500px" alt="Description of the image" />
+
+    <!-- Image as a Link -->
+    <h1>Image as a Link</h1>
+    <a href="https://www.google.com/">
+      <img src="image2.png" width="500px" alt="Description of the image" />
+    </a>
+
+    <h1>Image Map</h1>
+    <img
+      src="image3.png"
+      width="500px"
+      alt="Description of the image"
+      usemap="#map"
+    />
+    <map name="map">
+      <area
+        shape="rect"
+        coords="200,50,310,120"
+        href="https://www.youtube.com/"
+        alt="YouTube"
+      />
+      <area
+        shape="rect"
+        coords="200,150,310,220"
+        href="https://twitter.com/"
+        alt="Twitter"
+      />
+    </map>
+
+    <h1>Background Color</h1>
+    <div style="background-color: turquoise">
+      This is a div with a turquoise background color.
+    </div>
+
+    <h1>Text Color</h1>
+    <p style="color: red">This is a paragraph with red text color.</p>
+  </body>
+</html>
